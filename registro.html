@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/web.png" sizes="32x32">
+    <title>Registro</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Tecnology</h1>
+        <ul>
+            <li><a href="home.php">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="index.html">Sesión</a></li>
+            <li><a href="contacto.php">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+        <form action="registrousuario.php" method="post">
+            <div class="input-group">
+                <h2>Crea nueva cuenta </h2>
+                <input type="text" placeholder="Usuario" name="usuario" required>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Nombre" name="nombre" required>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="Correo" name="correo" required>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Telefono" name="telefono" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Password" name="pass" required>
+            </div>
+            <button type="submit" name="enviar">Enviar</button>
+            <button type="reset">Eliminar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
